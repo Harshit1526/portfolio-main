@@ -10,7 +10,7 @@ const Nav = () => {
     <nav>
       <a 
         href="#" 
-        className={active === '#' ? 'active' : ''}
+        className={active === '/#' ? 'active' : ''}
         onClick={() => setActive('#')}
       >
         <BiHome />
